@@ -1,0 +1,10 @@
+# Owners by path. What every installation runs (image, chart, baseline realm, SPIs), CI, this file and the security
+# policy require review from platform security.
+*                               @aedis-build/maintainers
+/image/                         @aedis-build/platform-security
+/charts/                        @aedis-build/platform-security
+/realms/                        @aedis-build/platform-security
+/spi/                           @aedis-build/platform-security
+/.github/                       @aedis-build/platform-security
+/CODEOWNERS                     @aedis-build/platform-security
+/SECURITY.md                    @aedis-build/platform-security
